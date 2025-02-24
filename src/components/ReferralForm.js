@@ -19,7 +19,7 @@ const ReferralForm = ({ onSubmit }) => {
 
     try {
       // Send POST request using Axios
-      const response = await axios.post('http://localhost:5000/api/refer', formData);
+      const response = await axios.post('https://accredian-backend-task-8dzp.onrender.com', formData);
 
       // Handle success
       if (response.status === 201) {
